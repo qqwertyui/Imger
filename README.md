@@ -18,6 +18,7 @@ It's pretyy straightforward if you have all dependencies:
 .\imger.exe <path_to_image>
 
 In case of errors you will hopefully get notificated by error message and exit code, for example:
+
 C:\Users\qwertyy\Desktop\imger> .\imger.exe .\image.gif
 
 [!] Couldn't load image: Unrecognized format
