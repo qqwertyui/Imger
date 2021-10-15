@@ -1,14 +1,10 @@
 #include "GenericException.hpp"
 
 GenericException::GenericException(const char *msg, int code) {
-    this->msg = msg;
-    this->code = code;
+  this->msg = msg;
+  this->code = code;
 }
 
-const char* GenericException::what() {
-    return this->msg;
-}
+const char *GenericException::what() { return this->msg; }
 
-int GenericException::get_code() {
-    return this->code;
-}
+int GenericException::get_code() { return this->code; }
